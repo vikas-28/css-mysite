@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  color: #40514e;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: "Satisfy", cursive; */
+  margin: 0;
+}
+
+a {
+  color: #4ab19a;
+}
+hr {
+  border: dotted #e0ebe8 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 40px auto;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  font-size: 3.125rem;
+  color: #4ab19a;
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-family: "Vujahday Script", cursive;
+  margin: 50px auto 0 auto;
+}
+h2 {
+  font-size: 0.9rem;
+  color: #4ab19a;
+  margin: 0;
+  font-weight: normal;
+}
+h3 {
+  color: #4ab19a;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  margin: 0 auto 0 auto;
+  padding-top: 80px;
+  height: 100%;
+}
+
+.mountain {
+  margin: 20px auto 0 auto;
+  padding-top: 50px;
+  vertical-align: bottom;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 110px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 195px;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  line-height: 2;
+}
+.profile-img {
+  width: 20%;
+}
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.java-img {
+  width: 20%;
+  float: left;
+  padding-right: 30px;
+}
+
+.frontend-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* button */
+.btn {
+  margin-top: 50px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: "Nunito", sans-serif;
+  color: #e0ebe8;
+  font-size: 18px;
+  background: #45b29a;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #459c88;
+  text-decoration: none;
+}
+
+.certifications {
+  line-height: 3;
+}
+
+.contact-me-button {
+  margin: 40px auto 0 auto;
+}
+
+/* footer */
+.bottom-container {
+  margin: 40px auto 0 auto;
+  padding-top: 20px;
+  background-color: #e0ebe8;
+  line-height: 2;
+}
+.copywrite {
+  margin: 16px auto 0 auto;
+  padding-bottom: 5px;
+}
+.footer-link {
+  padding: 0 20px;
+}
+
+.footer-img {
+  width: 3%;
+}
